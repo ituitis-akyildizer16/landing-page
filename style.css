@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.header ul{
+    display: flex;
+    gap: 8px;
+    text-decoration: none;
+    list-style: none;
+}
+.main-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.intro-section{
+    display: flex;
+    justify-content: center;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 3rem;
+}
+.image-section{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.image-section-header{
+    text-align: center;
+}
+.quote-section{
+    background-color: lightgray;
+    
+}
+.action-section{
+    background-color: white;
+}
+.footer{
+    background-color: #1f2937;
+}
